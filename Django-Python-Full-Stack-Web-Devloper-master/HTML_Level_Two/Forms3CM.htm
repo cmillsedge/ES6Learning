@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hotel Feedback</title>
+  </head>
+  <body>
+
+    <form class="" action="" method="get">
+      <h1>Hotel Feedback Form</h1>
+      <h3>Are you from inside the US or outside the US?</h3>
+      <label for="InUsa">Inside</label>
+      <!--note - id is for linking labels. name is for linking radio buttons -->
+      <!--note - values for radios used when you click submit below.-->
+      <input id="InUSA" type="radio" name="loc" value="inside">
+      <label for="OutUSA">Outside</label>
+      <input id="OutUSA" type="radio" name="loc" value="outside">
+      <!--drop down menu withh select --->
+      <h2>How was your service?</h2>
+      <select class="" name="Service">
+        <option value="Great">4</option>
+        <option value="Good">3</option>
+        <option value="Average">2</option>
+        <option value="Bad">1</option>
+
+      </select>
+      <h2>Any other feedback?</h2>
+      <!--big text box-->
+      <textarea name="feedback" rows="8" cols="80"></textarea>
+      <!--submit button. Note if you have an action in the <form> tag it will try and take you there-->
+      <input type="submit" name="" value="Submit">
+    </form>
+
+  </body>
+</html>

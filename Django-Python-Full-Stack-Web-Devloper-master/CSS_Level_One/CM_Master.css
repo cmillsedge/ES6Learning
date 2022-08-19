@@ -1,0 +1,21 @@
+/*This is a comment */
+/* syntax can be generalized as shown below */
+/*
+selected tag {
+  property value;
+}
+*/
+/* Changing text to blue */
+h1{
+  color: blue;
+}
+/* rgb codes */
+
+li{
+  color: rgb(153, 0, 0);
+}
+
+/* hex codes */
+p{
+  color: #993399;
+}
